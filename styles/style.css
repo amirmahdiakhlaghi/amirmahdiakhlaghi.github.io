@@ -203,6 +203,14 @@ ul {
 }
 
 
+/* ////////////our-story section /////////////// */
+
+.sweet {
+    padding: 100px 0px;
+    background-image: url(../images/backtwo.jpg);
+}
+
+
 /* ///////media queryes/////////  */
 
 @media screen and (min-width:1800px) {
@@ -237,4 +245,18 @@ ul {
     /* #nav-res-head {
         display: block !important;
     } */
+    /* ///our-story section/// */
+    .our-story {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .our-story .st-contant {
+        width: 100%;
+        align-self: center;
+    }
+    .our-story .st-img {
+        width: 100%;
+    }
 }
